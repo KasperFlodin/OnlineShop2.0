@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Product> productList;
     private FloatingActionButton btnCart;
     private RequestQueue requestQueue;
-    private static final String API_URL = "http://192.168.3.26:8080/products";
+    private static final String API_URL = "http://ip-adress:8080/products";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
